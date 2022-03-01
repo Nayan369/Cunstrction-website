@@ -1,0 +1,223 @@
+// gray and white color
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+// defad color
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+
+$warning: $yellow;
+$success: $green;
+
+// custom scrollbar design and styling
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient($pink, $warning);
+  border-radius: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bg-gary {
+  background-color: $gray-100;
+}
+
+.bg-gary-300 {
+  background-color: $gray-300 !important;
+}
+
+// icons design and hovering
+.hov-icons {
+  background-color: $gray-300 !important;
+  color: $gray-700 !important;
+
+  &:hover {
+    background-color: $warning !important;
+    color: $white !important;
+  }
+}
+
+// navber section design
+
+.actived {
+  border-bottom: solid 3px $warning;
+  color: $warning !important;
+}
+
+// nav link hover effect
+
+.link-hov:hover {
+  border-bottom: solid 3px $warning;
+  color: $warning !important;
+}
+
+.padi {
+  padding: 2rem 0rem !important;
+  // transition: all 1s ease-in;
+}
+.padirm {
+  padding: 1rem 0rem !important;
+  // transition: all 0.7s ease-in;
+}
+
+// carusole design and management
+
+.carousel-heit {
+  height: 33.5rem !important;
+}
+
+// .p-top {
+//   padding-top: 9.2rem !important;
+// }
+
+.carousel-overlay {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.397);
+  z-index: 0;
+}
+
+.carousel-posi {
+  position: absolute !important;
+  top: 20%;
+  left: 0;
+  // transform: translateY(-50%) !important;
+  // -webkit-transform: translateY(-50%);
+  z-index: 1;
+}
+
+// indicator section design
+$carousel-indicator-width: 20px;
+$carousel-indicator-height: 20px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer: 3px;
+$carousel-indicator-opacity: 0.3;
+$carousel-indicator-active-bg: $warning;
+$carousel-indicator-active-opacity: 1;
+// $carousel-caption-color: $warning;
+
+// carousel-icon
+$carousel-control-prev-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$warning}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$warning}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+.carousel-indicators {
+  button {
+    border-radius: 50% !important;
+    // padding: 10px;
+  }
+}
+$carousel-control-icon-width: 3rem;
+.carousel-control-prev {
+  span {
+    font-weight: bold !important;
+    color: $warning !important;
+  }
+}
+
+// hadding text bottom min border styling
+
+.haff-bor {
+  width: 4rem;
+  height: 0.2rem;
+  background-color: $warning;
+  display: block;
+  margin-top: 1.2rem;
+}
+
+.card-title-boleft {
+  border-left: solid 0.4rem $success;
+}
+
+.cimhov:hover {
+  filter: sepia(1);
+}
+
+// Have a Large Project? set background image
+.bg-imgLarge {
+  background-image: url("../image/con002-scaledrem.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+//  Join Our Team! section design and styling
+
+.team-wraper {
+  background: url("../image/con041.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+// .team-wraper::after {
+//   content: "" !important;
+//   background-color: rgba(0, 0, 0, 0.87);
+//   width: 100%;
+//   height: 100%;
+// }
+.gray-wraper {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.644);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+// owl carsol nav stiling and centering
+.owl-nav .owl-next,
+.owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.owl-nav .owl-next {
+  right: 0;
+  display: flex;
+  margin-right: -4% !important;
+  font-size: 3.5rem !important;
+  color: $warning !important;
+
+  &:hover {
+    background: none !important;
+  }
+}
+.owl-nav .owl-prev {
+  left: 0;
+  display: flex;
+  margin-left: -5% !important;
+  font-size: 3.5rem !important;
+  color: $warning !important;
+
+  &:hover {
+    background: none !important;
+  }
+}

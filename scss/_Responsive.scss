@@ -1,0 +1,159 @@
+@media (min-width: 375px) {
+  .navup-dis {
+    display: none !important;
+  }
+  .owl-nav .owl-next {
+    margin-right: 2% !important;
+  }
+
+  .owl-nav .owl-prev {
+    margin-left: 2% !important;
+  }
+  .carousel-heit {
+    height: 28.5rem !important;
+  }
+
+  .p-top {
+    padding-top: 8rem !important;
+  }
+
+  .carousel-posi {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .link-hov:hover {
+    border-bottom: none;
+  }
+}
+
+// for mobile Devais media Query styling
+@media (min-width: 576px) {
+  .navup-dis {
+    display: none !important;
+  }
+  .owl-nav .owl-next {
+    margin-right: 2% !important;
+  }
+
+  .owl-nav .owl-prev {
+    margin-left: 2% !important;
+  }
+  .carousel-heit {
+    height: 28.5rem !important;
+  }
+  .p-top {
+    padding-top: 7.5rem !important;
+  }
+  .carousel-posi {
+    position: absolute !important;
+    top: 5%;
+    left: 0;
+    z-index: 1;
+  }
+  .link-hov:hover {
+    border-bottom: none;
+  }
+}
+
+// for tablet Devais media Query styling
+@media (min-width: 768px) {
+  .navup-dis {
+    display: none !important;
+  }
+  .owl-nav .owl-next {
+    margin-right: -3% !important;
+  }
+
+  .owl-nav .owl-prev {
+    margin-left: -5% !important;
+  }
+
+  .carousel-heit {
+    height: 30.5rem !important;
+  }
+  .p-top {
+    padding-top: 7.2rem !important;
+  }
+  .carousel-posi {
+    position: absolute !important;
+    top: 10%;
+    left: 0;
+    z-index: 1;
+  }
+  .link-hov:hover {
+    border-bottom: none;
+  }
+}
+
+// for small laptop Devais media Query styling
+@media (min-width: 992px) {
+  .navup-dis {
+    display: block !important;
+  }
+  .carousel-heit {
+    height: 32.5rem !important;
+  }
+  .p-top {
+    padding-top: 7.2rem !important;
+  }
+  .carousel-posi {
+    position: absolute !important;
+    top: 15%;
+    left: 0;
+    z-index: 1;
+  }
+
+  .link-hov:hover {
+    border-bottom: solid 3px $warning;
+    color: $warning !important;
+  }
+}
+
+// for laptop and dextop Devais media Query styling
+@media (min-width: 1200px) {
+  .navup-dis {
+    display: block !important;
+  }
+  .carousel-heit {
+    height: 33.5rem !important;
+  }
+  .p-top {
+    padding-top: 7.2rem !important;
+  }
+  .carousel-posi {
+    position: absolute !important;
+    top: 20%;
+    left: 0;
+    z-index: 1;
+  }
+  .link-hov:hover {
+    border-bottom: solid 3px $warning;
+    color: $warning !important;
+  }
+}
+
+// for extra Big Devais media Query styling
+@media (min-width: 1400px) {
+  .navup-dis {
+    display: block !important;
+  }
+  .carousel-heit {
+    height: 33.5rem !important;
+  }
+  .p-top {
+    padding-top: 7.2rem !important;
+  }
+  .carousel-posi {
+    position: absolute !important;
+    top: 20%;
+    left: 0;
+    z-index: 1;
+  }
+  .link-hov:hover {
+    border-bottom: solid 3px $warning;
+    color: $warning !important;
+  }
+}
